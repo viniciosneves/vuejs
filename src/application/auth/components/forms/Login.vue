@@ -41,7 +41,8 @@ export default {
   },
   methods: {
     ...mapActions(['attemptLogin']),
-    doLogin () {
+    doLogin (ev) {
+      ev.preventDefault()
       const user = this.user
       this.attemptLogin(...user)
         .then(() => {

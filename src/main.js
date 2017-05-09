@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import Core from './Core'
 import router from './router'
-import vuex from './vuex/index.js'
+import store from './vuex'
 
 Vue.config.productionTip = false
 
@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  vuex,
+  store,
   template: '<Core/>',
   components: { Core }
 })
