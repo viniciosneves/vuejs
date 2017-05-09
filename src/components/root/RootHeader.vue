@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <router-link class="navbar-brand" to="/">Seu Nestor</router-link>
+          <router-link class="navbar-brand" to="/">Home</router-link>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -17,20 +17,20 @@
                 <span>Logar</span>
               </a>
             </router-link>
-            <router-link :to="{ path: 'vendas' }" tag="li">
+            <router-link :to="{ path: 'sales' }" tag="li">
               <a>
-                <span>Vendas</span>
+                <span>Sales</span>
               </a>
             </router-link>
-            <router-link :to="{ path: 'compras' }" tag="li">
+            <router-link :to="{ path: 'quotes' }" tag="li">
               <a>
-                <span>Compras</span>
+                <span>Quotes</span>
               </a>
             </router-link>
             </router-link>
             <router-link :to="{ path: 'costumers' }"  tag="li">
               <a>
-                <span>Clientes</span>
+                <span>Costumes</span>
               </a>
             </router-link>
           </ul>

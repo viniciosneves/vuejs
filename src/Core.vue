@@ -22,7 +22,7 @@ import RootHeader from './components/root/RootHeader.vue'
 import RootSidebar from './components/root/RootSidebar.vue'
 
 export default {
-  name: 'nestor',
+  name: 'App',
   components: { RootHeader, RootSidebar }
 }
 

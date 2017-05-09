@@ -5,6 +5,7 @@ const isLogged = () => store.getters.isLogged
 
 export default (to, from, next) => {
   if (!isAuthRoute(to) && !isLogged()) {
+    console.log('block')
     next('/auth')
   } else {
     next()

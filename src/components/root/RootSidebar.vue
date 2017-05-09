@@ -1,23 +1,23 @@
   <template>
       <nav class="sidebar">
           <ul>
-              <router-link :to="{ path: 'vendas' }" tag="li" class="side-item">
+              <router-link :to="{ path: 'sales' }" tag="li" class="side-item">
                 <a>
-                  <img src="/static/icons/sales.png">
-                  <span>Vendas</span>
+                  <i class="icon-bar-chart icon-2x"></i>
+                  <span>Sales</span>
                 </a>
               </router-link>
-              <router-link :to="{ path: 'compras' }" tag="li" class="side-item">
+              <router-link :to="{ path: 'quotes' }" tag="li" class="side-item">
                 <a>
-                  <img src="/static/icons/purchase.png">
-                  <span>Compras</span>
+                  <i class="icon-money icon-2x"></i>
+                  <span>Quotes</span>
                 </a>
               </router-link>
               </router-link>
               <router-link :to="{ path: 'costumers' }"  tag="li" class="side-item">
                 <a>
-                  <img src="/static/icons/sales.png">
-                  <span>Clientes</span>
+                  <i class="icon-group icon-2x"></i>
+                  <span>Costumers</span>
                 </a>
               </router-link>
           </ul>

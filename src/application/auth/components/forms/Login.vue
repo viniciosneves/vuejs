@@ -46,7 +46,7 @@ export default {
       const user = this.user
       this.attemptLogin(...user)
         .then(() => {
-          this.$router.push('/')
+          setTimeout(() => { this.$router.push('/dashboard') }, 1000)
         })
     }
   }
